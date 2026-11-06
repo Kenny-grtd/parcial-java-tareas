@@ -28,7 +28,7 @@ GestorTareas gestor = new GestorTareas();
 assertDoesNotThrow(() -> gestor.completarTarea(5));
 
 @Test
-public void testDescompletarTarea() {
+public void testDescompletarTarea(); {
     GestorTareas gestor = new GestorTareas();
     gestor.agregarTarea("Tarea de prueba");
     gestor.completarTarea(0);
